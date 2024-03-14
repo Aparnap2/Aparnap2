@@ -3,7 +3,10 @@ Hi there! I'm Aparnap2, and I'm thrilled to connect with you. This README serves
 
 ## Current Focus:
 
- ### I'm particularly interested in Artificial Intelligence (AI), Machine Learning (ML), 
+                  I'm particularly interested in
+
+                  
+ ### Artificial Intelligence (AI), Machine Learning (ML), 
  ### web development (MERN stack with Next.js), blockchain development (Solidity, Rust),
  ### server administration (Nginx), 
  ### version control (Git),
