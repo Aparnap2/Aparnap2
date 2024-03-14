@@ -2,7 +2,7 @@
 Hi there! I'm Aparnap2, and I'm thrilled to connect with you. This README serves as a professional introduction and a springboard for collaboration.
 
 ## Current Focus: 
-##I'm particularly interested in
+## I'm particularly interested in
 
                   
  ### Artificial Intelligence (AI), Machine Learning (ML), 
