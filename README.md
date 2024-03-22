@@ -3,8 +3,7 @@ Hi there! I'm
 - [Aparna Pradhan](https://github.com/Aparnap2)
 , and I'm thrilled to connect with you. This README serves as a professional introduction and a springboard for collaboration.
 
-
-                ## Current Focus: 
+   ##              Current Focus: 
 
 ## I'm particularly interested in
 
@@ -13,29 +12,29 @@ Hi there! I'm
 ## ■ [ langchain,  huggingface transformers, llm finetuning/ ollama  ]
 
 
- ### web development (MERN stack with Next.js),
+ - ### web development (MERN stack with Next.js),
 
-### BAAS ( firebase,  Appwrite) 
+### - BAAS ( firebase,  Appwrite) 
 
-### native development ( React native/  flutter flow)
+### - native development ( React native/  flutter flow)
 
-### blockchain development (Solidity, Rust),
+### - blockchain development (Solidity, Rust),
 
-### devops ( docker, podman, kubernetes ,etc )
+### - devops ( docker, podman, kubernetes ,etc )
 
-### cloud computing ( s3, lambda, dynamodb , etc )
+### - cloud computing ( s3, lambda, dynamodb , etc )
 
- ### server administration (Nginx), 
+ ### - server administration (Nginx), 
 
- ### version control (Git),
+ ### -  version control (Git),
 
- ### Linux operating systems,( file system,  bash , )
+ ### - Linux operating systems,( file system,  bash , )
 
-### VIRTUALIZATION ( kvm , virtual box , vmware )
+### - VIRTUALIZATION ( kvm , virtual box , vmware )
 
-### IT & Networking, 
+### - IT & Networking, ( 127.0.0.1) 
 
-### cybersecurity (including tools like Nmap and Burp Suite).
+### - cybersecurity (including tools like Nmap and Burp Suite).
 
  
  
