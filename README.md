@@ -5,8 +5,12 @@ Hi there! I'm Aparnap2, and I'm thrilled to connect with you. This README serves
 ## I'm particularly interested in
 
                   
- ### Artificial Intelligence (AI), Machine Learning (ML), 
- ### web development (MERN stack with Next.js), blockchain development (Solidity, Rust),
+ ### Artificial Intelligence (AI), Machine Learning (ML)
+## ■ [ langchain,  huggingface transformers, llm finetuning/ ollama  ]
+ ### web development (MERN stack with Next.js),
+### blockchain development (Solidity, Rust),
+### devops ( docker, podman, kubernetes ,etc )
+### cloud computing ( s3, lambda, dynamodb , etc )
  ### server administration (Nginx), 
  ### version control (Git),
  ### Linux operating systems, and cybersecurity (including tools like Nmap and Burp Suite).
