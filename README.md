@@ -15,6 +15,8 @@ Hi there! I'm
 
 ### BAAS ( firebase,  Appwrite) 
 
+### native development ( React native/  flutter flow)
+
 ### blockchain development (Solidity, Rust),
 
 ### devops ( docker, podman, kubernetes ,etc )
@@ -25,7 +27,14 @@ Hi there! I'm
 
  ### version control (Git),
 
- ### Linux operating systems, IT & Networking,  cybersecurity (including tools like Nmap and Burp Suite).
+ ### Linux operating systems,( file system,  bash , )
+
+### VIRTUALIZATION ( kvm , virtual box , vmware )
+
+### IT & Networking, 
+
+### cybersecurity (including tools like Nmap and Burp Suite).
+
  
  
  #### My passion lies in staying ahead of the curve, and I'm eager to delve into new technologies, particularly those emerging in the field of biocomputation.
