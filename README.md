@@ -12,29 +12,29 @@ Hi there! I'm
 ## ■ [ langchain,  huggingface transformers, llm finetuning/ ollama  ]
 
 
- - ### web development (MERN stack with Next.js),
+ - ### web development (MERN stack with Next.js), 
 
-### - BAAS ( firebase,  Appwrite) 
+ - ###  BAAS ( firebase,  Appwrite) 
 
-### - native development ( React native/  flutter flow)
+ - ###  native development ( React native/  flutter flow)
 
-### - blockchain development (Solidity, Rust),
+- ### blockchain development (Solidity, Rust),
 
-### - devops ( docker, podman, kubernetes ,etc )
+- ### devops ( docker, podman, kubernetes ,etc )
 
-### - cloud computing ( s3, lambda, dynamodb , etc )
+- ### cloud computing ( s3, lambda, dynamodb , etc )
 
- ### - server administration (Nginx), 
+ - ### server administration (Nginx), 
 
- ### -  version control (Git),
+ - ### version control (Git),
 
- ### - Linux operating systems,( file system,  bash , )
+ - ###  Linux operating systems,( file system,  bash , )
 
-### - VIRTUALIZATION ( kvm , virtual box , vmware )
+- ### VIRTUALIZATION ( kvm , virtual box , vmware )
 
-### - IT & Networking, ( 127.0.0.1) 
+- ### IT & Networking, ( 127.0.0.1, UDP => TCP  )
 
-### - cybersecurity (including tools like Nmap and Burp Suite).
+- ### cybersecurity (including tools like Nmap and Burp Suite).
 
  
  
