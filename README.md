@@ -7,13 +7,23 @@ Hi there! I'm Aparnap2, and I'm thrilled to connect with you. This README serves
                   
  ### Artificial Intelligence (AI), Machine Learning (ML)
 ## ■ [ langchain,  huggingface transformers, llm finetuning/ ollama  ]
+
+
  ### web development (MERN stack with Next.js),
+
+### BAAS ( firebase,  Appwrite) 
+
 ### blockchain development (Solidity, Rust),
+
 ### devops ( docker, podman, kubernetes ,etc )
+
 ### cloud computing ( s3, lambda, dynamodb , etc )
+
  ### server administration (Nginx), 
+
  ### version control (Git),
- ### Linux operating systems, and cybersecurity (including tools like Nmap and Burp Suite).
+
+ ### Linux operating systems, IT & Networking,  cybersecurity (including tools like Nmap and Burp Suite).
  
  
  #### My passion lies in staying ahead of the curve, and I'm eager to delve into new technologies, particularly those emerging in the field of biocomputation.
@@ -25,4 +35,4 @@ I'm actively seeking opportunities to collaborate on projects that leverage my c
 
   ### Let's Connect:
 
-# Feel free to reach out to me via email at ap3617180@gmail.com.
+# Feel free to reach out to me via email at ap3617180@gmail.com
