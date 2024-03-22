@@ -3,11 +3,13 @@ Hi there! I'm
 - [Aparna Pradhan](https://github.com/Aparnap2)
 , and I'm thrilled to connect with you. This README serves as a professional introduction and a springboard for collaboration.
 
-## Current Focus: 
+
+                ## Current Focus: 
+
 ## I'm particularly interested in
 
                   
- ### Artificial Intelligence (AI), Machine Learning (ML)
+ - ### Artificial Intelligence (AI), Machine Learning (ML)
 ## ■ [ langchain,  huggingface transformers, llm finetuning/ ollama  ]
 
 
