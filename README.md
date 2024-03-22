@@ -1,5 +1,7 @@
 # Aparnap2: A Passionate Learner and Collaborator
-Hi there! I'm Aparnap2, and I'm thrilled to connect with you. This README serves as a professional introduction and a springboard for collaboration.
+Hi there! I'm 
+- [@Aparna Pradhan](https://github.com/Aparnap2)
+, and I'm thrilled to connect with you. This README serves as a professional introduction and a springboard for collaboration.
 
 ## Current Focus: 
 ## I'm particularly interested in
