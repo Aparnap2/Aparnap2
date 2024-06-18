@@ -12,13 +12,14 @@ Hi there! I'm
 ## ■ [ langchain,  huggingface transformers, llm finetuning/ ollama  ]
 
 
- - ### web development (MERN stack with Next.js), 
+ - ### web development (MERN stack with Next.js),
+
 
  - ###  BAAS ( firebase,  Appwrite) 
 
- - ###  native development ( React native/  flutter flow)
+ - ###  native development ( React native)
 
-- ### blockchain development (Solidity, Rust),
+- ### blockchain development (Rust),
 
 - ### devops ( docker, podman, kubernetes ,etc )
 
@@ -34,7 +35,7 @@ Hi there! I'm
 
 - ### IT & Networking, ( 127.0.0.1, UDP => TCP  )
 
-- ### cybersecurity (including tools like Nmap and Burp Suite).
+- ### SAAS [ currently working on ! ]
 
  
  
