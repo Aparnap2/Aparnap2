@@ -20,52 +20,46 @@
 - Web Development
 
 #### MERN Stack
-Next.js
-Serverless / Edge Computing
-Django
-Backend as a Service (BAAS)
-
-Firebase
-Appwrite
-Native Development
-
-React Native
+- Next.js
+- Serverless
+- Edge Computing
+- Django
+- Backend as a Service (BAAS)
+- Firebase
+- Appwrite
+- Native Development
+- React Native
 
 #### Blockchain Development
+- Rust
+- Solidity
 
-Rust
-solidity 
-
-### Cloud Computing
-DevOps
-
-Docker
-Podman
-Kubernetes
-
-AWS S3
-AWS Lambda
-DynamoDB
+#### Cloud Computing DevOps
+- Docker
+- Podman
+- Kubernetes
+- AWS S3
+- AWS Lambda
+- DynamoDB
 
 #### Linux Operating Systems
-Server Administration
+- Server Administration
+- Nginx
+- Version Control
+- Git
+- File Systems
+- Bash Scripting
+- Virtualization
+- KVM
+- VirtualBox
+- VMware
 
-Nginx
-Version Control
+#### IT & Networking
+- Networking Protocols (e.g., UDP, TCP)
 
-Git
 
-File Systems
-Bash Scripting
-Virtualization
+> #### SaaS enthusiast and specialist for microservices , build and ship fast ***MVP*** with trending libraries and frameworks *or* transform your already validated **NO CODE** ***MVP*** to full fleged *production ready*  working SAAS .
 
-KVM
-VirtualBox
-VMware
-IT & Networking
-
-Networking Protocols (e.g., UDP, TCP)
-#### SaaS
 
 ### Currently working on my own SaaS project
 ## Skills
@@ -73,7 +67,7 @@ Networking Protocols (e.g., UDP, TCP)
 - Full Stack React Native Developer - 80%
 - AI Integrations (LLM API) - 70%
 - Production Grade Scalable Backend Developer - 70%
-- 
+  
 #### Tech Stack
 
 - JavaScript
@@ -132,12 +126,13 @@ Networking Protocols (e.g., UDP, TCP)
 
 Email: <aparnapradhan343@gmail.com>
 
-Phone: +91 99075 52314
+Phone: +91 9907552314
 
 ### Follow Me
 
 [LinkedIn](https://www.linkedin.com/in/aparna-pradhan-06b882215/)
+
 [Twitter](https://x.com/Aparna_108_dev)
 
-# I look forward to connecting and collaborating with you!
+# I look forward to connecting and collaborating with you! to make your ____$ idea possible in reality . 
 
