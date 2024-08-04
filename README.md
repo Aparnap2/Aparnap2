@@ -9,6 +9,8 @@
 - Age: 18
 - Postal Code: 721140
   
+> #### SaaS enthusiast and specialist for microservices , build and ship fast ***MVP*** with trending libraries and frameworks *or* transform your already validated **NO CODE** ***MVP*** to full fleged *production ready*  working SAAS .
+> 
 ## Current Focus
 ### I’m deeply immersed in:
 
@@ -58,7 +60,6 @@
 - Networking Protocols (e.g., UDP, TCP)
 
 
-> #### SaaS enthusiast and specialist for microservices , build and ship fast ***MVP*** with trending libraries and frameworks *or* transform your already validated **NO CODE** ***MVP*** to full fleged *production ready*  working SAAS .
 
 
 ### Currently working on my own SaaS project
