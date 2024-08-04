@@ -73,54 +73,60 @@ Networking Protocols (e.g., UDP, TCP)
 - Full Stack React Native Developer - 80%
 - AI Integrations (LLM API) - 70%
 - Production Grade Scalable Backend Developer - 70%
-Tech Stack
-JavaScript
-ReactJS
-NextJS
-NodeJS
-AI RAG Integration
-Langchain
-Serverless
-Edge Computing
-Laravel
-Django
-React Native
-Appwrite
-Firebase
-Zustand
-CSS
-TailwindCSS
-ShadCn UI
-Next UI
-REST API
-MongoDB
-MySQL
-GitHub
-Linux
-Web3.js
-Solidity
-GetStream
-ZegoCloud
-Pinecone
-NeonDB
-Vercel AI SDK
-Interests
-Kafka
-GraphQL
-Sockets
-WebRTC
-Nginx
-Kubernetes (K8s)
-Docker
-Fine-tuning LLMs
+- 
+#### Tech Stack
+
+- JavaScript
+- ReactJS
+- NextJS
+- NodeJS
+- AI
+- RAG Integration
+- Langchain
+- Serverless
+- Edge Computing
+- Laravel
+- Django
+- React Native
+- Appwrite
+- Firebase
+- Zustand
+- CSS
+- TailwindCSS
+- ShadCn UI
+- Next UI
+- REST API
+- MongoDB
+- MySQL
+- GitHub
+- Linux
+- Web3.js
+- Solidity
+- GetStream
+- ZegoCloud
+- Pinecone
+- NeonDB
+- Vercel
+- AI SDK
+- Interests
+- Kafka
+- GraphQL
+- Sockets
+- WebRTC
+- Nginx
+- Kubernetes (K8s)
+- Docker
+- Fine-tuning LLMs
+
+##### Let me know if you need any further assistance!
 
 ### Collaboration Opportunities
 #### I'm actively seeking opportunities to collaborate on projects that leverage my current skillset or provide a chance to learn new technologies. I'm particularly interested in:
 
-Projects combining AI/ML with web development
-Blockchain applications
-SaaS development and scaling
-Biocomputation and emerging technologies
+**Projects combining AI/ML with web development**
+**Blockchain applications**
+**SaaS development and scaling**
+
 #### Let's Connect
 ## Feel free to reach out to me:
 
@@ -130,7 +136,7 @@ Phone: +91 99075 52314
 
 ### Follow Me
 
-[LinkedIn](https://www.linkedin.com/in/aparna-pradhan)
+[LinkedIn](https://www.linkedin.com/in/aparna-pradhan-06b882215/)
 [Twitter](https://x.com/Aparna_108_dev)
 
 # I look forward to connecting and collaborating with you!
