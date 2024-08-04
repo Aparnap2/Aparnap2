@@ -121,15 +121,17 @@ Projects combining AI/ML with web development
 Blockchain applications
 SaaS development and scaling
 Biocomputation and emerging technologies
-Let's Connect
-Feel free to reach out to me:
+#### Let's Connect
+## Feel free to reach out to me:
 
 Email: <aparnapradhan343@gmail.com>
+
 Phone: +91 99075 52314
-Follow Me
 
-[LinkedIn] (https://www.linkedin.com/in/aparna-pradhan)
-[Twitter] (https://x.com/Aparna_108_dev)
+### Follow Me
 
-I look forward to connecting and collaborating with you!
+[LinkedIn](https://www.linkedin.com/in/aparna-pradhan)
+[Twitter](https://x.com/Aparna_108_dev)
+
+# I look forward to connecting and collaborating with you!
 
