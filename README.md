@@ -1,51 +1,135 @@
-# Aparnap2: A Passionate Learner and Collaborator
-Hi there! I'm 
-- [Aparna Pradhan](https://github.com/Aparnap2)
-, and I'm thrilled to connect with you. This README serves as a professional introduction and a springboard for collaboration.
+# Aparna Pradhan: MERN Stack Developer | AI Enthusiast | SaaS Innovator
+### Hi there! I'm Aparna Pradhan, and I'm excited to connect with you. This README serves as both an introduction and a gateway to potential collaborations.
 
-   ##              Current Focus: 
+## About Me
+- Name: Aparna Pradhan
+- Designation: MERN Stack Developer | AI Automation Enthusiast | Working on Own SaaS Project
+- Residence: India
+- State: West Bengal
+- Age: 18
+- Postal Code: 721140
+  
+## Current Focus
+### I’m deeply immersed in:
 
-## I'm particularly interested in
+#### Artificial Intelligence (AI) & Machine Learning (ML)
 
-                  
- - ### Artificial Intelligence (AI), Machine Learning (ML)
-## ■ [ langchain,  huggingface transformers, llm finetuning/ ollama  ]
+- Langchain
+- Hugging Face Transformers
+- LLM Fine-tuning / Ollama
+- Web Development
 
+#### MERN Stack
+Next.js
+Serverless / Edge Computing
+Django
+Backend as a Service (BAAS)
 
- - ### web development (MERN stack with Next.js),
+Firebase
+Appwrite
+Native Development
 
+React Native
 
- - ###  BAAS ( firebase,  Appwrite) 
+#### Blockchain Development
 
- - ###  native development ( React native)
+Rust
+solidity 
 
-- ### blockchain development (Rust),
+### Cloud Computing
+DevOps
 
-- ### devops ( docker, podman, kubernetes ,etc )
+Docker
+Podman
+Kubernetes
 
-- ### cloud computing ( s3, lambda, dynamodb , etc )
+AWS S3
+AWS Lambda
+DynamoDB
 
- - ### server administration (Nginx), 
+#### Linux Operating Systems
+Server Administration
 
- - ### version control (Git),
+Nginx
+Version Control
 
- - ###  Linux operating systems,( file system,  bash , )
+Git
 
-- ### VIRTUALIZATION ( kvm , virtual box , vmware )
+File Systems
+Bash Scripting
+Virtualization
 
-- ### IT & Networking, ( 127.0.0.1, UDP => TCP  )
+KVM
+VirtualBox
+VMware
+IT & Networking
 
-- ### SAAS [ currently working on ! ]
+Networking Protocols (e.g., UDP, TCP)
+#### SaaS
 
- 
- 
- #### My passion lies in staying ahead of the curve, and I'm eager to delve into new technologies, particularly those emerging in the field of biocomputation.
- 
-### Collaboration Opportunities:
+### Currently working on my own SaaS project
+## Skills
+- MERN Stack + Next.js + Serverless / Edge + Django Developer - 85%
+- Full Stack React Native Developer - 80%
+- AI Integrations (LLM API) - 70%
+- Production Grade Scalable Backend Developer - 70%
+Tech Stack
+JavaScript
+ReactJS
+NextJS
+NodeJS
+AI RAG Integration
+Langchain
+Serverless
+Edge Computing
+Laravel
+Django
+React Native
+Appwrite
+Firebase
+Zustand
+CSS
+TailwindCSS
+ShadCn UI
+Next UI
+REST API
+MongoDB
+MySQL
+GitHub
+Linux
+Web3.js
+Solidity
+GetStream
+ZegoCloud
+Pinecone
+NeonDB
+Vercel AI SDK
+Interests
+Kafka
+GraphQL
+Sockets
+WebRTC
+Nginx
+Kubernetes (K8s)
+Docker
+Fine-tuning LLMs
 
-I'm actively seeking opportunities to collaborate on projects that leverage my current skillset or provide an opportunity to learn new technologies. I'm particularly interested in projects that combine AI/ML with web development, explore blockchain applications, or delve into the exciting world of biocomputation.
+### Collaboration Opportunities
+#### I'm actively seeking opportunities to collaborate on projects that leverage my current skillset or provide a chance to learn new technologies. I'm particularly interested in:
 
+Projects combining AI/ML with web development
+Blockchain applications
+SaaS development and scaling
+Biocomputation and emerging technologies
+Let's Connect
+Feel free to reach out to me:
 
-  ### Let's Connect:
+Email: <aparnapradhan343@gmail.com>
+Phone: +91 99075 52314
+Follow Me
 
-# Feel free to reach out to me via email at ap3617180@gmail.com
+[LinkedIn] (https://www.linkedin.com/in/aparna-pradhan)
+[Twitter] (https://x.com/Aparna_108_dev)
+
+I look forward to connecting and collaborating with you!
+
