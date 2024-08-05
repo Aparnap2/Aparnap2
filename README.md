@@ -9,7 +9,7 @@
 - Age: 18
 - Postal Code: 721140
   
-> #### SaaS enthusiast and specialist for microservices , build and ship fast ***MVP*** with trending libraries and frameworks *or* transform your already validated **NO CODE** ***MVP*** to full fleged *production ready*  working SAAS .
+> ### SaaS enthusiast and specialist for microservices , build and ship fast ***MVP*** with trending libraries and frameworks *or* transform your already validated **NO CODE** ***MVP*** to full fleged *production ready*  working SAAS .
 > 
 ## Current Focus
 ### I’m deeply immersed in:
@@ -18,8 +18,8 @@
 
 - Langchain
 - Hugging Face Transformers
-- LLM Fine-tuning / Ollama
-- Web Development
+- LLM Fine-tuning ( Groq , Qlora , etc )
+- Web & Mobile integration ( through API )
 
 #### MERN Stack
 - Next.js
@@ -29,14 +29,14 @@
 - Backend as a Service (BAAS)
 - Firebase
 - Appwrite
-- Native Development
 - React Native
 
 #### Blockchain Development
 - Rust
 - Solidity
+- web3js
 
-#### Cloud Computing DevOps
+#### Cloud Computing & DevOps
 - Docker
 - Podman
 - Kubernetes
@@ -64,9 +64,9 @@
 
 ### Currently working on my own SaaS project
 ## Skills
-- MERN Stack + Next.js + Serverless / Edge + Django Developer - 85%
-- Full Stack React Native Developer - 80%
-- AI Integrations (LLM API) - 70%
+- ***MERN Stack + Next.js + Serverless / Edge + Django Developer*** - 85%
+- AI Integrations (LLM API) - 75%
+- Full Stack React Native Developer - 70%
 - Production Grade Scalable Backend Developer - 70%
   
 #### Tech Stack
