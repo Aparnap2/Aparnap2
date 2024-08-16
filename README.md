@@ -21,7 +21,7 @@
 - LLM Fine-tuning ( Groq , Qlora , etc )
 - Web & Mobile integration ( through API )
 
-#### MERN Stack
+#### FULL Stack
 - Next.js
 - Serverless
 - Edge Computing
