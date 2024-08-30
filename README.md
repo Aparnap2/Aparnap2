@@ -20,8 +20,8 @@
 
 #### Artificial Intelligence (AI) & Machine Learning (ML)
 
-- Langchain
-- Hugging Face Transformers
+- Langchain *RAG chatbots* , *AI agents*
+- Hugging Face Transformers , opensource llm 
 - LLM Fine-tuning ( Groq , Qlora , etc )
 - Web & Mobile integration ( through API )
 
