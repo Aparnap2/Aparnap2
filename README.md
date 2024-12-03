@@ -6,7 +6,7 @@
 - Designation: MERN Stack Developer | AI Automation Enthusiast | Working on Own SaaS Project
 - Residence: India
 - State: West Bengal
-- Age: 18
+- Age: 19 [ as of 03/12/2024 ]
 - Postal Code: 721140
 
 
