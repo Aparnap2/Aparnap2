@@ -3,7 +3,7 @@
 
 ## 🌐 About Me
 - Name: Aparna Pradhan
-- Designation: MERN Stack Developer | AI Automation | Working on AT agents, SAAS, RAG , Finetunug , etc
+- Designation: Full Stack web and React Native  Developer | AI Automation | Working on AT agents, SAAS, RAG , Finetunug , etc
 - Residence: India
 - State: West Bengal
 - Age: 19 [ as of 03/12/2024 ]
