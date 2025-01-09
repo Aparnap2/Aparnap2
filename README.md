@@ -132,7 +132,7 @@
 
 Email: <aparnapradhan343@gmail.com>
 
-Phone: +91 9907552314
+
 
 ### Follow Me
 
