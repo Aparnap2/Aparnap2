@@ -1,9 +1,9 @@
-# Aparna Pradhan: MERN Stack Developer | AI Enthusiast | SaaS Innovator
+# Aparna Pradhan: Full Stack *WEB* and *React Native*  Developer |specializing in AI integration | Custom niche SaaS solutions 
 ### Hi there! I'm Aparna Pradhan, and I'm excited to connect with you. This README serves as both an introduction and a gateway to potential collaborations.
 
 ## 🌐 About Me
 - Name: Aparna Pradhan
-- Designation: Full Stack web and React Native  Developer | AI Automation | Working on AT agents, SAAS, RAG , Finetunug , etc
+- Designation: Full Stack web and React Native  Developer | AI Automation | Working on AI agents, SAAS, RAG , Finetunug , etc
 - Residence: India
 - State: West Bengal
 - Age: 19 [ as of 03/12/2024 ]
@@ -27,6 +27,7 @@
 
 #### FULL Stack
 - Next.js
+- Remix.js
 - Serverless
 - Edge Computing
 - Django
