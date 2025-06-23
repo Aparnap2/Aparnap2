@@ -84,10 +84,10 @@ I’m open to freelance and collaborative projects, especially in:
 ---
 
 ## 📬 Let’s Connect
-- **Email**: [aparnapradhan343@gmail.com](mailto:aparnapradhan343@gmail.com)  
+- **Email**: [softservicesinc.portfolio@gmail.com](mailto:softservicesinc.portfolio@gmail.com)  
 - **LinkedIn**: [Aparna Pradhan](https://www.linkedin.com/in/aparna-pradhan-06b882215/)  
 - **Twitter/X**: [@Aparna_108_dev](https://x.com/Aparna_108_dev)  
-- **Portfolio**: [Coming soon](https://example.com)  
+- **Portfolio**: [Coming soon](https://aparnapradhanportfolio.netlify.app)  
 
 ---
 
