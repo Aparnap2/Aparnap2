@@ -5,7 +5,7 @@ Hi! I'm **Aparna Pradhan**, a 19-year-old Full Stack Developer from West Bengal,
 ---
 
 ## 🌐 About Me
-- **Location**: West Bengal, India (Postal Code: 721140)
+- **Location**: West Bengal, India 
 - **Focus**: Full Stack Web (Next.js), Mobile (React Native), AI Integration (LangChain, RAG), SaaS Development
 - **Mission**: Deliver fast, scalable, and user-centric MVPs that solve real-world problems
 - **Currently Working On**: Portfolio projects including a healthcare mobile app, SaaS chatbot builder, AI virtual office, and a self-hosted NotebookLM alternative
