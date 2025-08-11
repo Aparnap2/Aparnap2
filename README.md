@@ -1,99 +1,89 @@
-# Aparna Pradhan: Full Stack Web & React Native Developer | AI Integration & SaaS Specialist
 
-Hi! I'm **Aparna Pradhan**, a 19-year-old Full Stack Developer from West Bengal, India, passionate about building AI-driven SaaS solutions and mobile apps. I specialize in transforming ideas into production-ready MVPs using modern frameworks and AI technologies. Whether you're a solopreneur, SMB, or startup, I’m excited to collaborate on innovative projects and help bring your vision to life!
+## Aparna Pradhan — Full‑Stack Web & React Native Developer | AI Agents & SaaS Specialist
 
----
 
-## 🌐 About Me
-- **Location**: West Bengal, India 
-- **Focus**: Full Stack Web (Next.js), Mobile (React Native), AI Integration (LangChain, RAG), SaaS Development
-- **Mission**: Deliver fast, scalable, and user-centric MVPs that solve real-world problems
-- **Currently Working On**: Portfolio projects including a healthcare mobile app, SaaS chatbot builder, AI virtual office, and a self-hosted NotebookLM alternative
+### I build production‑ready MVPs and AI‑driven systems for founders and SMBs.
+### Full‑stack web, React Native, and agentic AI with reliable integrations and secure, typed data flows.
 
----
+### About
+I’m Aparna Pradhan, a full‑stack developer focused on shipping robust MVPs and agentic AI systems that stand up in production. I combine strong fundamentals (typed contracts, predictable data pipelines, secure integrations) with modern tooling (LangGraph, OpenRouter, React/Next.js, FastAPI/NestJS) to turn ambiguous ideas into working software that users actually adopt.
 
-## 🚀 Tech Stack
-| **Category**        | **Technologies**                                                                 |
-|---------------------|----------------------------------------------------------------------------------|
-| **Frontend**        | Next.js, React, React Native, Zustand, TanStack Query, TailwindCSS, ShadCN UI     |
-| **Backend**         | Node.js, NestJS, FastAPI, Django, GraphQL, REST APIs, Serverless, Edge Computing |
-| **Databases & ORMs**| MongoDB, PostgreSQL, Supabase, Prisma, Drizzle, Neo4j, Qdrant, Pinecone          |
-| **AI & ML**         | LangChain, LangGraph, LlamaIndex, Hugging Face, Google Gemini, RAG, Fine-tuning  |
-| **DevOps & Cloud**  | Docker, Kubernetes, AWS (S3, Lambda), Vercel, Netlify, Nginx, Git, CI/CD         |
-| **Blockchain**      | Web3.js, Solidity, Rust                                                          |
-| **Other Tools**       | Firebase, AppWrite, Zod, Pydantic, Crawl4AI, WebSocket (Socket.io), WebRTC, Kafka|
+What I’m known for
+- Shipping MVPs fast without cutting corners on reliability
+- Building autonomous agents with guardrails, typed schemas, and tool contracts
+- Designing generative UI that turns chat into action (cards, forms, tables, charts)
+- Integrating cleanly with real systems (auth, payments, files, CRMs, CMS, search)
 
----
+Focus Areas
+- AI Agents & Automation: LangGraph‑orchestrated workflows, tool use, secure actions
+- SaaS Platforms: Multi‑tenant, billing, analytics, admin, role‑based access
+- Mobile Apps: React Native experiences with offline‑first and AI features
+- Knowledge & Data: RAG pipelines, vector search, graph memory, NL→API/SQL
+- Dev Experience: Typed contracts (TypeScript/Pydantic), CI/CD, containerized deploys
 
-## 🏆 Portfolio Projects
- my key projects are currently in dev , they're built to showcase my expertise in AI, full-stack development, and SaaS solutions:
+Core Tech Stack (Evergreen)
+- Frontend: React, Next.js, React Native, TypeScript, Tailwind, Zustand, TanStack Query
+- Backend: Node.js/NestJS, Python/FastAPI, GraphQL/REST, Webhooks, Serverless/Edge
+- Data: PostgreSQL, MongoDB, Prisma/Drizzle, Redis, Supabase
+- AI: LangGraph, LangChain, OpenRouter model routing, RAG (Qdrant/Pinecone), LlamaIndex
+- Graph & Memory: Neo4j (relationship/temporal memory)
+- DevOps: Docker, CI/CD (GitHub Actions), Vercel, AWS basics, Nginx
+- Integrations: Shopify/WooCommerce (dev/test), Stripe (test), Zendesk/Freshdesk, Notion/Confluence, Email/Slack
+- Reliability: Typed schemas (Zod/Pydantic), observability, audit trails
 
-1. **Healthcare AI Mobile App**  
-   - **Description**: A React Native app for scanning prescriptions with OCR (Google Cloud Vision), setting medication reminders, and managing user health.  
-   - **Tech**: React Native/Expo, NestJS, Prisma, MongoDB, Google Gemini, Supabase  
-   - **Status**: In progress (MVP: OCR scanning and reminders)  
-   - **Links**:  *(coming soon)*  
+Flagship Projects (Positioned as ongoing capabilities)
+- Generative UI Support Agent
+  Scope: Autonomous customer support across orders, refunds, product info with LangGraph, typed tools, and dynamic UI components. Integrations: Shopify/WooCommerce (dev), Stripe (test), ticketing.
+  Value: Sub‑2s responses, 70–95% autonomous resolution, measurable deflection.
+- SaaS Chatbot/Agent Builder
+  Scope: Multi‑tenant platform to deploy domain chatbots/agents with analytics, knowledge ingestion, policies, and guardrails. RAG pipelines, role‑based access, usage metering.
+  Value: Fast deployment, reproducible playbooks, auditability.
+- AI Virtual Office (Agentic Workflows)
+  Scope: Calendar/tasks orchestration, procedural agents with tool use, summary digests, and human‑in‑the‑loop optionality. LangGraph state + secure actions.
+  Value: Hours saved weekly, reliable automations that survive API changes.
+- Research Copilot (NotebookLM‑style, self‑hostable)
+  Scope: PDF/web ingestion, source‑grounded summaries, citations, topic maps, graph memory.
+  Value: Trustworthy research with at‑source traceability.
 
-2. **SaaS Chatbot Builder**  
-   - **Description**: A Next.js platform for creating customizable AI-powered chatbots with analytics, targeting SMBs and solopreneurs.  
-   - **Tech**: Next.js, FastAPI, LangChain, GraphQL, Qdrant, Supabase  
-   - **Status**: In progress (MVP: Chatbot creation UI)  
-   - **Links**:  *(coming soon)*  
+Services (Evergreen, non‑time‑sensitive)
+- Autonomous Agent Systems
+  Design and implementation of LangGraph‑based agents with typed tool contracts, guardrails, and streaming generative UI. Outcomes over prompts.
+- SaaS MVPs
+  From schema and auth to billing, analytics, and admin—production‑ready in weeks, not months.
+- Mobile + AI
+  React Native apps with on‑device UX, offline‑first, and AI features (OCR, RAG, assistants).
+- Knowledge & Data
+  RAG pipelines, governed retrieval, vector/graph stores, and measurable answer quality.
 
-3. **AI Virtual Office**  
-   - **Description**: A task automation platform with calendar integration and AI agents for productivity.  
-   - **Tech**: Next.js, Supabase, LangGraph, TypeScript, Clerk  
-   - **Status**: In progress (MVP: Task scheduling)  
-   - **Links**: [GitHub](https://github.com/Aparnap2/agentflow-pro) 
-4. **Self-Hosted NotebookLM Alternative**  
-   - **Description**: A research tool for processing PDFs and web content with AI-generated summaries, using RAG.  
-   - **Tech**: FastAPI, LlamaIndex, Qdrant, Crawl4AI, Docker  
-   - **Status**: In progress (MVP: Text summarization)  
-   - **Links**: *(coming soon)*  
+Engagement Models (No volatile price numbers)
+- Sprint: Discovery → Blueprint → Working Prototype (2–3 weeks)
+- Build: Milestone‑based delivery with clear acceptance criteria and metrics
+- Evolve: Ongoing improvements (monitoring, guardrails, features) with optional retainer
 
----
+Principles I don’t compromise on
+- Predictability: Typed data flows end‑to‑end (TypeScript/Zod/Pydantic)
+- Security: Least privilege, audit logs, field‑level protection where needed
+- Observability: Metrics, traces, and evaluations for agent behavior
+- Ownership: Code‑first, no lock‑in; your team can extend and maintain
 
-## 🛠 Skills & Achievements
-Instead of percentage ratings, here are my key skills and accomplishments:
+Selected Skills & Proof
+- Full‑stack execution: Multiple MVPs from zero→users with clean, extensible codebases
+- Agentic AI: LangGraph orchestration, tool use, confidence thresholds, fallbacks
+- Integrations: Payments, shops, ticketing, auth, knowledge bases, storage, email
+- Data UX: Generative UI that moves beyond chat to actionable interfaces
 
-- **Full Stack Development**: Built 4+ MVPs using Next.js, React Native, and NestJS, with scalable backends (e.g., Prisma, MongoDB).  
-- **AI Integration**: Implemented RAG pipelines with LangChain and LlamaIndex for chatbots and research tools, leveraging Google Gemini and Qdrant.  
-- **Mobile Development**: Developed cross-platform apps with React Native/Expo, including OCR-based features for healthcare.  
-- **DevOps & Cloud**: Deployed apps on Vercel, Fly.io, and AWS, using Docker and CI/CD pipelines for efficient workflows.  
-- **Blockchain**: Created smart contracts with Solidity and integrated Web3.js for decentralized apps.  
-- **Open Source**: Contributed to 3+ repositories on GitHub, including AI and SaaS libraries.  
+Collaboration
+I work best with founders and teams who value:
+- Clear scope → reliable delivery
+- Outcomes > demos
+- Sustainable systems over throwaway prototypes
 
----
+Contact
+Email: softservicesinc.portfolio@gmail.com
 
-## 🎯 Current Focus
-I’m diving deep into:
-- **AI & ML**: Building AI agents, RAG chatbots, and fine-tuning LLMs (e.g., Grok, QLoRA).  
-- **SaaS Development**: Creating scalable, niche SaaS platforms with serverless and edge computing.  
-- **Mobile Apps**: Enhancing React Native apps with AI-driven features.  
-- **DevOps**: Streamlining deployments with Kubernetes and AWS.  
+- LinkedIn: linkedin.com/in/aparna-pradhan-06b882215
+- X: @Aparna_108_dev
+- Portfolio: aparnapradhanportfolio.netlify.app
 
----
 
-## 🤝 Collaboration Opportunities
-I’m open to freelance and collaborative projects, especially in:
-- **AI-Driven SaaS**: Building or scaling SaaS platforms with AI features (e.g., chatbots, analytics).  
-- **Healthcare Tech**: Developing mobile apps for health management.  
-- **Blockchain Apps**: Creating decentralized solutions with Web3.js or Solidity.  
-- **Open Source**: Contributing to innovative AI or SaaS projects.  
 
----
-
-## 📬 Let’s Connect
-- **Email**: [softservicesinc.portfolio@gmail.com](mailto:softservicesinc.portfolio@gmail.com)  
-- **LinkedIn**: [Aparna Pradhan](https://www.linkedin.com/in/aparna-pradhan-06b882215/)  
-- **Twitter/X**: [@Aparna_108_dev](https://x.com/Aparna_108_dev)  
-- **Portfolio**: [Aparna Pradhan](https://aparnapradhanportfolio.netlify.app)  
-
----
-
-## ✨ Why Work With Me?
-- **Fast MVPs**: I deliver production-ready MVPs quickly using modern tools like Next.js and LangChain.  
-- **AI Expertise**: I integrate cutting-edge AI to solve complex problems, from RAG to fine-tuning.  
-- **Client-Focused**: I prioritize clear communication and user-centric solutions for solopreneurs and SMBs.  
-
-I look forward to collaborating and turning your ideas into reality!
