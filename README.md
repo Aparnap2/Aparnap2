@@ -1,89 +1,86 @@
+## Aparna Pradhan — Code‑First Automation Modernization | Full‑Stack & AI Agents
 
-## Aparna Pradhan — Full‑Stack Web & React Native Developer | AI Agents & SaaS Specialist
+I modernize brittle, legacy/no‑code automations into reliable, scalable, cost‑efficient systems with SLAs, acceptance tests, and live ROI dashboards. Outcomes over demos. Governance over hype.
 
+### What I do
+- Modernize support, bookings, and finance inbox workflows with orchestrated agents, validators, and observability.  
+- Ship production‑ready SaaS/Mobile features (auth, billing, analytics, admin, role‑based access).  
+- Prove success with binary acceptance tests, P95 latency targets, and a 30‑day L2 warranty.
 
-### I build production‑ready MVPs and AI‑driven systems for founders and SMBs.
-### Full‑stack web, React Native, and agentic AI with reliable integrations and secure, typed data flows.
+### Outcomes (representative targets)
+- Support: P95 first response < 2 minutes; ≥85% QA pass on 100 historical emails; ≥95% citation coverage; breach alerts < 30s.  
+- Booking: calendar write < 60s; +20% show‑rate vs 30‑day baseline; response P95 < 2 minutes.  
+- Finance inbox: ≥98% field accuracy on 200‑doc test; 100% duplicate detection on seeded sample; weekly anomaly digest by 9am Monday.
 
 ### About
-I’m Aparna Pradhan, a full‑stack developer focused on shipping robust MVPs and agentic AI systems that stand up in production. I combine strong fundamentals (typed contracts, predictable data pipelines, secure integrations) with modern tooling (LangGraph, OpenRouter, React/Next.js, FastAPI/NestJS) to turn ambiguous ideas into working software that users actually adopt.
+Full‑stack developer specialized in agentic AI and code‑first systems. Strong fundamentals (typed contracts, predictable data pipelines, secure integrations) plus modern orchestration (LangGraph, evaluators/validators, temporal KBs with citations). Clear definitions of done, measurable ROI, and production reliability.
 
-What I’m known for
-- Shipping MVPs fast without cutting corners on reliability
-- Building autonomous agents with guardrails, typed schemas, and tool contracts
-- Designing generative UI that turns chat into action (cards, forms, tables, charts)
-- Integrating cleanly with real systems (auth, payments, files, CRMs, CMS, search)
+### Focus areas
+- Code‑First Modernization: state machines, retries/idempotency, queue/outbox, structured logs, rollback.  
+- Agentic AI: LangGraph orchestration, tool contracts, confidence thresholds, HITL options.  
+- SaaS Platforms: multi‑tenant architecture, billing, analytics, admin, RBAC.  
+- Mobile + AI: React Native experiences with offline‑first and on‑device friendly UX.  
+- Knowledge & Data: RAG pipelines, vector/graph stores, governed retrieval, NL→API/SQL.
 
-Focus Areas
-- AI Agents & Automation: LangGraph‑orchestrated workflows, tool use, secure actions
-- SaaS Platforms: Multi‑tenant, billing, analytics, admin, role‑based access
-- Mobile Apps: React Native experiences with offline‑first and AI features
-- Knowledge & Data: RAG pipelines, vector search, graph memory, NL→API/SQL
-- Dev Experience: Typed contracts (TypeScript/Pydantic), CI/CD, containerized deploys
+### Core stack
+- Frontend: React, Next.js, React Native, TypeScript, Tailwind, TanStack Query, Zustand.  
+- Backend: Node.js/NestJS, Python/FastAPI, REST/GraphQL, Webhooks, Serverless/Edge.  
+- Data: PostgreSQL, MongoDB, Prisma/Drizzle, Redis, Supabase.  
+- AI: LangGraph/LangChain, OpenRouter routing, RAG (Qdrant/Pinecone), LlamaIndex.  
+- Graph & Memory: Neo4j (relationship/temporal memory).  
+- DevOps: Docker, GitHub Actions, Vercel, AWS basics, Nginx.  
+- Integrations: Shopify/WooCommerce, Stripe, Zendesk/Freshdesk, Notion/Confluence, Email/Slack.  
+- Reliability: Zod/Pydantic schemas, observability, audit trails.
 
-Core Tech Stack (Evergreen)
-- Frontend: React, Next.js, React Native, TypeScript, Tailwind, Zustand, TanStack Query
-- Backend: Node.js/NestJS, Python/FastAPI, GraphQL/REST, Webhooks, Serverless/Edge
-- Data: PostgreSQL, MongoDB, Prisma/Drizzle, Redis, Supabase
-- AI: LangGraph, LangChain, OpenRouter model routing, RAG (Qdrant/Pinecone), LlamaIndex
-- Graph & Memory: Neo4j (relationship/temporal memory)
-- DevOps: Docker, CI/CD (GitHub Actions), Vercel, AWS basics, Nginx
-- Integrations: Shopify/WooCommerce (dev/test), Stripe (test), Zendesk/Freshdesk, Notion/Confluence, Email/Slack
-- Reliability: Typed schemas (Zod/Pydantic), observability, audit trails
+### Flagship capabilities
+- Generative Support Workforce  
+  Scope: Email/WhatsApp answers with citations, QA gate, SLA/breach alerts, sentiment routing.  
+  Value: measurable deflection, P95 latency targets, governed escalation.
 
-Flagship Projects (Positioned as ongoing capabilities)
-- Generative UI Support Agent
-  Scope: Autonomous customer support across orders, refunds, product info with LangGraph, typed tools, and dynamic UI components. Integrations: Shopify/WooCommerce (dev), Stripe (test), ticketing.
-  Value: Sub‑2s responses, 70–95% autonomous resolution, measurable deflection.
-- SaaS Chatbot/Agent Builder
-  Scope: Multi‑tenant platform to deploy domain chatbots/agents with analytics, knowledge ingestion, policies, and guardrails. RAG pipelines, role‑based access, usage metering.
-  Value: Fast deployment, reproducible playbooks, auditability.
-- AI Virtual Office (Agentic Workflows)
-  Scope: Calendar/tasks orchestration, procedural agents with tool use, summary digests, and human‑in‑the‑loop optionality. LangGraph state + secure actions.
-  Value: Hours saved weekly, reliable automations that survive API changes.
-- Research Copilot (NotebookLM‑style, self‑hostable)
-  Scope: PDF/web ingestion, source‑grounded summaries, citations, topic maps, graph memory.
-  Value: Trustworthy research with at‑source traceability.
+- Booking & Lead Ops Workforce  
+  Scope: IG/WhatsApp/email intake → qualifier → slot picker → reminders → no‑show guardrails.  
+  Value: more bookings, higher show‑rates, admin for hours/prompts, idempotent writes.
 
-Services (Evergreen, non‑time‑sensitive)
-- Autonomous Agent Systems
-  Design and implementation of LangGraph‑based agents with typed tool contracts, guardrails, and streaming generative UI. Outcomes over prompts.
-- SaaS MVPs
-  From schema and auth to billing, analytics, and admin—production‑ready in weeks, not months.
-- Mobile + AI
-  React Native apps with on‑device UX, offline‑first, and AI features (OCR, RAG, assistants).
-- Knowledge & Data
-  RAG pipelines, governed retrieval, vector/graph stores, and measurable answer quality.
+- Finance Inbox (AP/AR Lite)  
+  Scope: Docling OCR + validators, anomaly digest (duplicates/tax), NL reconciliation, CSV/ERP export (read‑only first).  
+  Value: accuracy and duplicate‑catch guarantees, weekly digest, clean hand‑off to accounting.
 
-Engagement Models (No volatile price numbers)
-- Sprint: Discovery → Blueprint → Working Prototype (2–3 weeks)
-- Build: Milestone‑based delivery with clear acceptance criteria and metrics
-- Evolve: Ongoing improvements (monitoring, guardrails, features) with optional retainer
+- Research Copilot (Notebook‑style, self‑hostable)  
+  Scope: PDF/web ingestion, source‑grounded summaries, topic maps, graph memory.  
+  Value: trustworthy research with at‑source traceability and evaluators.
 
-Principles I don’t compromise on
-- Predictability: Typed data flows end‑to‑end (TypeScript/Zod/Pydantic)
-- Security: Least privilege, audit logs, field‑level protection where needed
-- Observability: Metrics, traces, and evaluations for agent behavior
-- Ownership: Code‑first, no lock‑in; your team can extend and maintain
+### Services
+- 10‑Day Modernization Audit (required first step)  
+  Journey map, latency/cost/failure baselines, SLAs, acceptance tests, 90‑day roadmap, and a fixed 10–14 day pilot SOW (fee credited to build).
 
-Selected Skills & Proof
-- Full‑stack execution: Multiple MVPs from zero→users with clean, extensible codebases
-- Agentic AI: LangGraph orchestration, tool use, confidence thresholds, fallbacks
-- Integrations: Payments, shops, ticketing, auth, knowledge bases, storage, email
-- Data UX: Generative UI that moves beyond chat to actionable interfaces
+- Pilot Build (10–14 days, pass/fail)  
+  One workflow rebuilt with orchestrated agents, validators, observability, and a live ROI panel; keep/kill at day 14; 30‑day L2 warranty.
 
-Collaboration
-I work best with founders and teams who value:
-- Clear scope → reliable delivery
-- Outcomes > demos
-- Sustainable systems over throwaway prototypes
+- Ongoing Ops  
+  Monthly SLOs, dashboards (P95, cost/100 actions, outcome metric), incident playbooks, and change‑managed improvements.
 
-Contact
-Email: softservicesinc.portfolio@gmail.com
+### Engagement models
+- Sprint: Discovery → Blueprint → Working Prototype (2–3 weeks).  
+- Build: Milestone‑based delivery with acceptance criteria and metrics.  
+- Evolve: Retainer for monitoring, guardrails, and roadmap features.
 
-- LinkedIn: linkedin.com/in/aparna-pradhan-06b882215
-- X: @Aparna_108_dev
+### Principles
+- Predictability: typed data flows end‑to‑end (TypeScript/Zod/Pydantic).  
+- Security: least privilege, audit logs, process‑and‑delete mode on request.  
+- Observability: metrics, traces, evaluations, and breach playbooks.  
+- Ownership: code‑first, no lock‑in; your team can extend and maintain.
+
+### Proof and signals
+- Test harnesses with screenshots for Support/Booking/Finance acceptance runs.  
+- Redacted dashboard images (P95 latency, cost/100 actions, outcome metrics).  
+- TCO mini‑cards showing legacy/no‑code monthly vs code‑first run‑rate and payback months.
+
+### Collaboration fit
+Best with ops‑minded founders and teams that value clear scope, fast time‑to‑value, and sustainable systems over throwaway prototypes.
+
+### Contact
+- Email: softservicesinc.portfolio@gmail.com  
+- LinkedIn: linkedin.com/in/aparna-pradhan-06b882215  
+- X: @Aparna_108_dev  
 - Portfolio: aparnapradhanportfolio.netlify.app
-
-
 
