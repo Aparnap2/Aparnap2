@@ -1,86 +1,75 @@
-## Aparna Pradhan — Code‑First Automation Modernization | Full‑Stack & AI Agents
+# Hi, I'm Aparna Pradhan 👋
+### Code‑First Automation Architect | Full‑Stack & AI Agents
 
-I modernize brittle, legacy/no‑code automations into reliable, scalable, cost‑efficient systems with SLAs, acceptance tests, and live ROI dashboards. Outcomes over demos. Governance over hype.
+> **"Outcomes over demos. Governance over hype."**
 
-### What I do
-- Modernize support, bookings, and finance inbox workflows with orchestrated agents, validators, and observability.  
-- Ship production‑ready SaaS/Mobile features (auth, billing, analytics, admin, role‑based access).  
-- Prove success with binary acceptance tests, P95 latency targets, and a 30‑day L2 warranty.
+I modernize brittle, legacy/no‑code automations into reliable, scalable, cost‑efficient systems. I don't just write scripts; I build **production-ready architectures** with binary acceptance tests, P95 latency targets, and live ROI dashboards.
 
-### Outcomes (representative targets)
-- Support: P95 first response < 2 minutes; ≥85% QA pass on 100 historical emails; ≥95% citation coverage; breach alerts < 30s.  
-- Booking: calendar write < 60s; +20% show‑rate vs 30‑day baseline; response P95 < 2 minutes.  
-- Finance inbox: ≥98% field accuracy on 200‑doc test; 100% duplicate detection on seeded sample; weekly anomaly digest by 9am Monday.
+---
 
-### About
-Full‑stack developer specialized in agentic AI and code‑first systems. Strong fundamentals (typed contracts, predictable data pipelines, secure integrations) plus modern orchestration (LangGraph, evaluators/validators, temporal KBs with citations). Clear definitions of done, measurable ROI, and production reliability.
+### 🛠️ The "Senior" Stack
+I bridge the gap between AI research and Enterprise reliability.
 
-### Focus areas
-- Code‑First Modernization: state machines, retries/idempotency, queue/outbox, structured logs, rollback.  
-- Agentic AI: LangGraph orchestration, tool contracts, confidence thresholds, HITL options.  
-- SaaS Platforms: multi‑tenant architecture, billing, analytics, admin, RBAC.  
-- Mobile + AI: React Native experiences with offline‑first and on‑device friendly UX.  
-- Knowledge & Data: RAG pipelines, vector/graph stores, governed retrieval, NL→API/SQL.
+| **Category** | **Technologies** |
+| :--- | :--- |
+| **Language** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **AI Orchestration** | ![LangGraph](https://img.shields.io/badge/LangGraph-State_Machines-ff69b4?style=flat-square) ![LiteLLM](https://img.shields.io/badge/LiteLLM-Gateway-orange?style=flat-square) **RAG** (Graph/Vector) |
+| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) **Pydantic** |
+| **Data & Vector** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) |
+| **Infrastructure** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Langfuse](https://img.shields.io/badge/Langfuse-Observability-blue?style=flat-square) **GitHub Actions** |
 
-### Core stack
-- Frontend: React, Next.js, React Native, TypeScript, Tailwind, TanStack Query, Zustand.  
-- Backend: Node.js/NestJS, Python/FastAPI, REST/GraphQL, Webhooks, Serverless/Edge.  
-- Data: PostgreSQL, MongoDB, Prisma/Drizzle, Redis, Supabase.  
-- AI: LangGraph/LangChain, OpenRouter routing, RAG (Qdrant/Pinecone), LlamaIndex.  
-- Graph & Memory: Neo4j (relationship/temporal memory).  
-- DevOps: Docker, GitHub Actions, Vercel, AWS basics, Nginx.  
-- Integrations: Shopify/WooCommerce, Stripe, Zendesk/Freshdesk, Notion/Confluence, Email/Slack.  
-- Reliability: Zod/Pydantic schemas, observability, audit trails.
+---
 
-### Flagship capabilities
-- Generative Support Workforce  
-  Scope: Email/WhatsApp answers with citations, QA gate, SLA/breach alerts, sentiment routing.  
-  Value: measurable deflection, P95 latency targets, governed escalation.
+### 🚀 Flagship Engineering Capabilities
 
-- Booking & Lead Ops Workforce  
-  Scope: IG/WhatsApp/email intake → qualifier → slot picker → reminders → no‑show guardrails.  
-  Value: more bookings, higher show‑rates, admin for hours/prompts, idempotent writes.
+I build systems that hit specific **Service Level Objectives (SLOs)**.
 
-- Finance Inbox (AP/AR Lite)  
-  Scope: Docling OCR + validators, anomaly digest (duplicates/tax), NL reconciliation, CSV/ERP export (read‑only first).  
-  Value: accuracy and duplicate‑catch guarantees, weekly digest, clean hand‑off to accounting.
+#### 1. Finance Inbox & Procurement (AP/AR)
+*Automated reconciliation with 100% duplicate detection.*
+- **Scope:** Docling OCR + Pydantic validators + Anomaly digests.
+- **Metric:** ≥98% field accuracy on 200‑doc test sets.
+- **Stack:** Python, FastAPI, GraphRAG.
 
-- Research Copilot (Notebook‑style, self‑hostable)  
-  Scope: PDF/web ingestion, source‑grounded summaries, topic maps, graph memory.  
-  Value: trustworthy research with at‑source traceability and evaluators.
+#### 2. Generative Support Workforce
+*Email/WhatsApp resolution with strict governance.*
+- **Scope:** Citations required, QA gating, Sentiment routing.
+- **Metric:** P95 response < 2 minutes; Breach alerts < 30s.
+- **Stack:** LangGraph, Redis Queues, LiteLLM.
 
-### Services
-- 10‑Day Modernization Audit (required first step)  
-  Journey map, latency/cost/failure baselines, SLAs, acceptance tests, 90‑day roadmap, and a fixed 10–14 day pilot SOW (fee credited to build).
+#### 3. Booking & Lead Ops
+*Idempotent calendar operations.*
+- **Scope:** Intake → Qualifier → Slot Picker → Reminders.
+- **Metric:** +20% show‑rate vs baseline; < 60s write latency.
 
-- Pilot Build (10–14 days, pass/fail)  
-  One workflow rebuilt with orchestrated agents, validators, observability, and a live ROI panel; keep/kill at day 14; 30‑day L2 warranty.
+---
 
-- Ongoing Ops  
-  Monthly SLOs, dashboards (P95, cost/100 actions, outcome metric), incident playbooks, and change‑managed improvements.
+### 🧠 Engineering Principles
 
-### Engagement models
-- Sprint: Discovery → Blueprint → Working Prototype (2–3 weeks).  
-- Build: Milestone‑based delivery with acceptance criteria and metrics.  
-- Evolve: Retainer for monitoring, guardrails, and roadmap features.
+*   **Predictability:** Typed data flows end‑to‑end (TypeScript/Zod/Pydantic). No "stringly typed" code.
+*   **Security:** Least privilege, audit logs, and PII redaction by default.
+*   **Observability:** If it isn't logged in Langfuse/Phoenix, it didn't happen.
+*   **Ownership:** Code‑first, no lock‑in. I build systems your team can extend.
 
-### Principles
-- Predictability: typed data flows end‑to‑end (TypeScript/Zod/Pydantic).  
-- Security: least privilege, audit logs, process‑and‑delete mode on request.  
-- Observability: metrics, traces, evaluations, and breach playbooks.  
-- Ownership: code‑first, no lock‑in; your team can extend and maintain.
+---
 
-### Proof and signals
-- Test harnesses with screenshots for Support/Booking/Finance acceptance runs.  
-- Redacted dashboard images (P95 latency, cost/100 actions, outcome metrics).  
-- TCO mini‑cards showing legacy/no‑code monthly vs code‑first run‑rate and payback months.
+### 🤝 Engagement Models
+I work best with ops‑minded founders who value clear scope and sustainable systems over throwaway prototypes.
 
-### Collaboration fit
-Best with ops‑minded founders and teams that value clear scope, fast time‑to‑value, and sustainable systems over throwaway prototypes.
+1.  **10‑Day Modernization Audit:** Latency/cost baselines, SLAs, and a fixed pilot SOW.
+2.  **Pilot Build (10–14 days):** Pass/Fail delivery based on acceptance criteria.
+3.  **Ongoing Ops:** Monthly SLOs and change-managed improvements.
 
-### Contact
-- Email: softservicesinc.portfolio@gmail.com  
-- LinkedIn: linkedin.com/in/aparna-pradhan-06b882215  
-- X: @Aparna_108_dev  
-- Portfolio: aparnapradhanportfolio.netlify.app
+---
 
+### 📬 Connect
+<div align="left">
+  <a href="https://aparnapradhanportfolio.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-View_Case_Studies-000000?style=for-the-badge&logo=vercel" alt="Portfolio" />
+  </a>
+  <a href="https://linkedin.com/in/aparnapradhan" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="mailto:softservicesinc.portfolio@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail" alt="Email" />
+  </a>
+</div>
