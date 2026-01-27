@@ -7,7 +7,7 @@
   <a href="https://aparnapradhanportfolio.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-View_Case_Studies-000000?style=for-the-badge&logo=vercel" alt="Portfolio" />
   </a>
-  <a href="https://linkedin.com/in/aparnapradhan" target="_blank">
+  <a href="https://www.linkedin.com/in/aparna-pradhan-06b882215/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="mailto:softservicesinc.portfolio@gmail.com">
