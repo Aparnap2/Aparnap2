@@ -5,7 +5,7 @@
 
 
 
-<img width="1600" height="700" alt="2025-04-27" src="https://github.com/user-attachments/assets/3bdf9974-1793-46c8-9e91-a1868658c1e9" />
+<img width="900" height="550" alt="2025-04-27" src="https://github.com/user-attachments/assets/3bdf9974-1793-46c8-9e91-a1868658c1e9" />
 
 
 
