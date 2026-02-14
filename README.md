@@ -3,6 +3,12 @@
 ### Applied AI Architect & Full-Stack Engineer
 #### *Building Governance-First Autonomous Systems.*
 
+
+
+<img width="2000" height="1414" alt="2025-04-27" src="https://github.com/user-attachments/assets/3bdf9974-1793-46c8-9e91-a1868658c1e9" />
+
+
+
 <div align="left">
   <a href="https://aparnapradhanportfolio.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-View_Case_Studies-000000?style=for-the-badge&logo=vercel" alt="Portfolio" />
