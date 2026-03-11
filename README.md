@@ -31,7 +31,7 @@ I bridge the gap between fragile AI research demos and resilient enterprise syst
 **My systems are built for:**
 *   **Predictability:** End-to-end type safety (Pydantic/TypeScript) and binary acceptance tests.
 *   **Governance:** Strict "Human-in-the-Loop" (HITL) gates, RBAC, and audit trails.
-*   **Observability:** If it isn't traced in Langfuse, it doesn't exist.
+*   **Observability:** If it isn't traced in Langfuse or Temporal UI, it doesn't exist.
 
 ---
 
@@ -39,62 +39,71 @@ I bridge the gap between fragile AI research demos and resilient enterprise syst
 
 | Layer | Technology Choice | Why? |
 | :--- | :--- | :--- |
-| **Orchestration** | ![LangGraph](https://img.shields.io/badge/LangGraph-State_Machines-ff69b4?style=flat-square) ![LiteLLM](https://img.shields.io/badge/LiteLLM-Gateway-orange?style=flat-square) | Deterministic loops, not random chains. Cost-controlled routing. |
-| **Backend Core** | ![FastAPI](https://img.shields.io/badge/FastAPI-Async_Python-009688?style=flat-square) ![NestJS](https://img.shields.io/badge/NestJS-Enterprise_Node-E0234E?style=flat-square) | High-concurrency async I/O for parallel agent execution. |
-| **Data Fabric** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-PgVector-336791?style=flat-square) ![Neo4j](https://img.shields.io/badge/Neo4j-GraphRAG-008CC1?style=flat-square) | Hybrid Search (Vector + Graph) for grounded truth retrieval. |
-| **Observability** | ![Langfuse](https://img.shields.io/badge/Langfuse-Tracing-blue?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square) | Full visibility into latency, cost per token, and trace failures. |
+| **Orchestration** | ![LangGraph](https://img.shields.io/badge/LangGraph-State_Machines-ff69b4?style=flat-square) ![Temporal](https://img.shields.io/badge/Temporal-Durable_Workflows-blue?style=flat-square) | Deterministic loops & durable execution, not random chains. |
+| **Backend Core** | ![FastAPI](https://img.shields.io/badge/FastAPI-Async_Python-009688?style=flat-square) ![Go](https://img.shields.io/badge/Go-Fiber-00ADD8?style=flat-square) ![Hono](https://img.shields.io/badge/Hono-Bun-E36002?style=flat-square) | High-concurrency async I/O for parallel agent execution. |
+| **Data Fabric** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-PgVector-336791?style=flat-square) ![Qdrant](https://img.shields.io/badge/Qdrant-VectorDB-DC244C?style=flat-square) | Hybrid Search (Vector + FTS) for grounded truth retrieval. |
+| **Observability** | ![Langfuse](https://img.shields.io/badge/Langfuse-Tracing-blue?style=flat-square) ![Grafana](https://img.shields.io/badge/Grafana-Metrics-F46800?style=flat-square) | Full visibility into latency, cost per token, and trace failures. |
+| **Cloud** | ![Azure](https://img.shields.io/badge/Azure-AI_Foundry-0078D4?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square) | Azure-native deployments, container-first infrastructure. |
 
 ---
 
 ### 🚀 Production-Grade Architectures
 
-#### 1. [Invoicify: Autonomous Finance Operations](https://github.com/Aparnap2/invoicify)
-*Vertical AI Agent for AP/AR Automation replacing manual data entry.*
+#### 1. [Invoicify: Azure-Native AP Automation with MCP](https://github.com/Aparnap2/invoicify)
+*Autonomous Accounts Payable agent replacing manual invoice processing end-to-end.*
 
-> **The Problem:** Finance teams drown in manual invoice reconciliation and "email ping-pong."
-> **The Solution:** A **"Trust Battery"** architecture that autonomously approves low-risk invoices and escalates anomalies.
+[![Tests](https://img.shields.io/badge/tests-83%20passing-brightgreen)](https://github.com/Aparnap2/invoicify) [![MCP](https://img.shields.io/badge/MCP-QuickBooks%20%7C%20HubSpot-purple)](https://modelcontextprotocol.io)
 
-*   **Architecture:** `Analyst-Critic Loop` (LangGraph) → `Slack Intern UI` → `ERP Sync`
-*   **Key Innovation:** **Trust Battery Logic**—Dynamic confidence thresholds that increase autonomy over time per vendor.
-*   **Metric:** Reduced manual review by **80%** with **100%** auditability on escalations.
+> **The Problem:** Finance teams drown in manual invoice reconciliation — 15–30 min per invoice, 5–10% error rate, 3–7 day approval bottleneck.
+> **The Solution:** A **"Trust Battery"** architecture with Azure OCR + LangGraph state machine that autonomously approves low-risk invoices and escalates anomalies.
 
-#### 2. [ExecOps: Event-Driven Infrastructure Guard](https://github.com/Aparnap2/ExecOps)
-*Event-driven multi-agent system for DevOps & Compliance governance.*
+*   **Architecture:** `PDF Upload` → `Azure Document Intelligence (OCR)` → `LangGraph AP Workflow (11 nodes)` → `Trust Battery Decision` → `QuickBooks MCP + HubSpot MCP Sync` → `Immutable Audit Ledger`
+*   **Key Innovation:** **Trust Battery Logic** — 4-level vendor trust (PROBATION → STANDARD → CORE → STRATEGIC) with dynamic auto-approval thresholds ($500 → $50k). Bank detail changes and PO mismatches auto-route to HITL review tasks.
+*   **Production Hardening:** Idempotent MCP tool calls via `Request-Id` headers, SHA-256 cryptographic audit receipts, SOC 2 data minimization (store hashes, not PDFs), Azure Key Vault secret management, L1/L2/L3 LLM cache (90% call reduction).
+*   **Metrics:** **99% OCR accuracy** | **60–80% auto-approval rate** | **97% cost reduction** ($15–30 → $0.50/invoice) | **83 tests passing** | **$0/month for 12 months** (Azure free tier)
 
-> **The Problem:** Alerts are noisy, and manual remediation is slow and risky.
-> **The Solution:** A specialized **"Council of Agents"** that triages webhooks and proposes idempotent fixes.
+---
+
+#### 2. [IterateSwarm OS: Autonomous Engineering Organization](https://github.com/Aparnap2/IterateSwarm)
+*Polyglot, event-driven agent swarm that transforms unstructured feedback into production-ready code changes — fully automated, no third-party dependencies required.*
+
+[![Tests](https://img.shields.io/badge/tests-156%20passing-brightgreen)](https://github.com/Aparnap2/IterateSwarm) [![Services](https://img.shields.io/badge/services-11%20running-blue)](https://github.com/Aparnap2/IterateSwarm)
+
+> **The Problem:** Engineering teams lose hours triaging noisy feedback, manually writing GitHub issues, and waiting on slow human-gated review cycles.
+> **The Solution:** A **"Council of Agents"** (Supervisor, Researcher, SRE, SWE, Reviewer, Triage) orchestrated by Temporal that deduplicates feedback semantically, drafts structured specs, and proposes production-ready PRs — humans only click Approve.
 
 *   **Architecture:**
     ```mermaid
     graph LR
-    A[Webhook Event] --> B(Sentinel: PR Audit)
-    A --> C(Hunter: EBS Cleanup)
-    B & C --> D{Action Proposal}
-    D --> E[Human Inbox Approval]
+    A[Discord / SwarmChat] --> B(Go Gateway: Fiber)
+    B --> C[(Redpanda / Kafka)]
+    C --> D(Temporal Workflow)
+    D -->|gRPC| E(Python LangGraph Agents)
+    E --> F[(Qdrant: Semantic Dedup)]
+    D --> G{HITL Approval}
+    G --> H[SwarmRepo / GitHub PR]
     ```
-*   **Key Innovation:** **Idempotent Action Proposals**—Agents cannot "act," only "propose." Humans click "Approve" to execute via secure runners.
-*   **Agents:** `Sentinel` (Code Quality), `Hunter` (Cost Ops), `Guard` (IAM Security).
-
-#### 3. [Smart Commerce: GenUI Support Protocol](https://github.com/Aparnap2/smart_commerce_agent)
-*Next-gen e-commerce support with Generative UI and Universal Commerce Protocol (UCP).*
-
-> **The Problem:** Chatbots are dumb text boxes that can't "do" anything.
-> **The Solution:** A **Generative UI** agent that renders dynamic React components (Refund Cards, Product Carousels) inside the chat.
-
-*   **Architecture:** `RAG (Vercel AI SDK)` → `MCP Tool Execution` → `GenUI Render`
-*   **Key Innovation:** **Universal Commerce Protocol (UCP)**—Standardized schema for product discovery and support actions across platforms.
-*   **Tech:** RAG with Prisma, Vercel AI SDK, React Server Components.
+*   **Key Innovation:** **Native Platform (SwarmChat + SwarmRepo)** — Adapter-pattern replacements for Discord and GitHub that speak their API dialects. Swap real Discord/GitHub via a single env var. Zero vendor lock-in at the infrastructure level.
+*   **Polyglot Stack:** Go (Fiber, Temporal Worker, gRPC client) + Python (LangGraph, gRPC server, 6 agents) + Redpanda + Qdrant + PostgreSQL + Grafana. Type-safe cross-language contracts via Protocol Buffers.
+*   **Metrics:** **156 tests passing** | **End-to-end latency < 3s** | **11 production services** | **48-hour HITL timeout** with Dead Letter Queue after 5 failed attempts
 
 ---
 
-### 🤝 Engagement Strategy
-I partner with technical founders to build **assets**, not technical debt.
+#### 3. [TechTrend: Agentic Commerce Platform](https://github.com/Aparnap2/smart_commerce_agent)
+*Production-grade AI-native e-commerce CX platform where the agent IS the interface — zero page navigation, zero forms, all conversation.*
 
-1.  **Audit (Week 1):** I review your legacy automations/codebase. Output: Latency/Cost Baseline & Architecture Plan.
-2.  **Build (Weeks 2-4):** Sprints focused on passing binary acceptance tests. No "it works on my machine."
-3.  **Handover:** Full documentation, architectural decision records (ADRs), and ops dashboards.
+[![Tests](https://img.shields.io/badge/tests-307%20passing-brightgreen)](https://github.com/Aparnap2/smart_commerce_agent) [![Pass Rate](https://img.shields.io/badge/pass%20rate-100%25-brightgreen)](https://github.com/Aparnap2/smart_commerce_agent)
+
+> **The Problem:** Chatbots are dumb text boxes that can't "do" anything — users still navigate pages, fill forms, and wait for human support agents.
+> **The Solution:** A **Generative UI** agent that renders dynamic React components (ProductGrid, CartCanvas, OrderTimeline, ActionConfirm) directly inside the chat stream, powered by a LangGraph supervisor routing 14 intent types.
+
+*   **Architecture:** `Next.js 15 GenUI Canvas` → `Hono + Bun (GraphQL Yoga / MCP endpoints)` → `FastAPI + LangGraph (ShopperAgent / SupportAgent)` → `PostgreSQL 16 + pgvector (Hybrid FTS + Vector Search)` → `Azure AI Foundry (gpt-4o-mini)`
+*   **Key Innovation:** **Agent-First Commerce** — Every user action is a conversation turn. LangGraph supervisor with typed state, Redis checkpointing, circuit breaker for resilience, and Human-in-the-Loop for critical actions (checkout, refunds). RAGAS + LLM-as-Judge scoring via Langfuse.
+*   **Observability:** 100% of agent turns traced in Langfuse with per-span latency (classify, tools, generate), faithfulness scores, and correlation IDs on every tool call.
+*   **Metrics:** **307 tests passing (100% pass rate)** | **P95 agent turn latency < 500ms** | **Task completion target > 95%** | **Cart recovery > 15%** vs 10% industry avg | **Merchant time saved > 2hr/day**
 
 ---
+
 
 <div align="center">
   <sub><em>"We cannot solve our problems with the same thinking we used when we created them."</em> – Albert Einstein</sub>
