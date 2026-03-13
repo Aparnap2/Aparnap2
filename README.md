@@ -3,11 +3,7 @@
 ### Applied AI Architect & Full-Stack Engineer
 #### *Building Governance-First Autonomous Systems.*
 
-
-
 <img width="900" height="550" alt="2025-04-27" src="https://github.com/user-attachments/assets/3bdf9974-1793-46c8-9e91-a1868658c1e9" />
-
-
 
 <div align="left">
   <a href="https://aparnapradhanportfolio.netlify.app/" target="_blank">
@@ -64,28 +60,18 @@ I bridge the gap between fragile AI research demos and resilient enterprise syst
 
 ---
 
-#### 2. [IterateSwarm OS: Autonomous Engineering Organization](https://github.com/Aparnap2/IterateSwarm)
-*Polyglot, event-driven agent swarm that transforms unstructured feedback into production-ready code changes — fully automated, no third-party dependencies required.*
+#### 2. [Sarthi.ai: Internal Ops Virtual Office](https://github.com/Aparnap2/sarthi_ai)
+*Governance-first internal operations system for Seed to Series A startups replacing back-office fragmentation with 13 specialized AI employees.*
 
-[![Tests](https://img.shields.io/badge/tests-156%20passing-brightgreen)](https://github.com/Aparnap2/IterateSwarm) [![Services](https://img.shields.io/badge/services-11%20running-blue)](https://github.com/Aparnap2/IterateSwarm)
+[![Tests](https://img.shields.io/badge/tests-125%20passing-brightgreen)](https://github.com/Aparnap2/sarthi_ai) [![Desks](https://img.shields.io/badge/desks-6%20Active-blue)](https://github.com/Aparnap2/sarthi_ai)
 
-> **The Problem:** Engineering teams lose hours triaging noisy feedback, manually writing GitHub issues, and waiting on slow human-gated review cycles.
-> **The Solution:** A **"Council of Agents"** (Supervisor, Researcher, SRE, SWE, Reviewer, Triage) orchestrated by Temporal that deduplicates feedback semantically, drafts structured specs, and proposes production-ready PRs — humans only click Approve.
+> **The Problem:** Early-stage startups drown in operational chaos, juggling 15 disconnected tools. Founders waste 15–20 hours/week on back-office tasks, delaying product roadmaps by ~3 months per year.
+> **The Solution:** A virtual office with a **Chief of Staff** orchestrating 13 specialized AI employees across 6 desks (Finance, People, Legal, Intelligence, IT, Admin). Everything requiring human judgment is prepared perfectly and presented in 30 seconds.
 
-*   **Architecture:**
-    ```mermaid
-    graph LR
-    A[Discord / SwarmChat] --> B(Go Gateway: Fiber)
-    B --> C[(Redpanda / Kafka)]
-    C --> D(Temporal Workflow)
-    D -->|gRPC| E(Python LangGraph Agents)
-    E --> F[(Qdrant: Semantic Dedup)]
-    D --> G{HITL Approval}
-    G --> H[SwarmRepo / GitHub PR]
-    ```
-*   **Key Innovation:** **Native Platform (SwarmChat + SwarmRepo)** — Adapter-pattern replacements for Discord and GitHub that speak their API dialects. Swap real Discord/GitHub via a single env var. Zero vendor lock-in at the infrastructure level.
-*   **Polyglot Stack:** Go (Fiber, Temporal Worker, gRPC client) + Python (LangGraph, gRPC server, 6 agents) + Redpanda + Qdrant + PostgreSQL + Grafana. Type-safe cross-language contracts via Protocol Buffers.
-*   **Metrics:** **156 tests passing** | **End-to-end latency < 3s** | **11 production services** | **48-hour HITL timeout** with Dead Letter Queue after 5 failed attempts
+*   **Architecture:** `Telegram Bot` → `Tier 1: Chief of Staff Agent` → `Tier 2: 6 Desks (13 Virtual Employees)` → `Tier 0: BusinessOS (Go + Temporal + Graphiti)` → `Tier 3: Data Layer (Qdrant + Neo4j)`.
+*   **Key Innovation:** **The Self-Correcting Memory System** — Sarthi learns company-specific context over time. Agent acts → Founder confirms → Memory updated (Qdrant + Neo4j) → Future auto-categorized with context drift detection.
+*   **Production Hardening:** Strict HITL (Human-in-the-Loop) gates enforced by Temporal, deterministic state management, and an explicit boundary (Zero external-facing work like RevOps or Customer Success).
+*   **Metrics:** **$0/month infrastructure cost** for MVP | **Replaces ₹2L–₹3.75L/month** in fractional admin costs | **20x–50x ROI** | **125 tests passing** (Targeting 189 tests for v4.2.0).
 
 ---
 
@@ -103,7 +89,6 @@ I bridge the gap between fragile AI research demos and resilient enterprise syst
 *   **Metrics:** **307 tests passing (100% pass rate)** | **P95 agent turn latency < 500ms** | **Task completion target > 95%** | **Cart recovery > 15%** vs 10% industry avg | **Merchant time saved > 2hr/day**
 
 ---
-
 
 <div align="center">
   <sub><em>"We cannot solve our problems with the same thinking we used when we created them."</em> – Albert Einstein</sub>
