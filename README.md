@@ -23,77 +23,428 @@
 
 ---
 
-### 🏛️ The Engineering Philosophy
-> **"Outcomes over demos. Architecture over hype."**
+# Hi, I'm Aparna Pradhan
 
-I bridge the gap between fragile AI research demos and resilient enterprise systems. I don't just write prompts; I engineer **stateful, observable, and governed architectures** that replace manual operational toil with deterministic reliability.
+### Applied AI Engineer · Agentic Systems · Enterprise AI Integration
 
-**My systems are built for:**
-*   **Predictability:** End-to-end type safety (Pydantic/TypeScript) and binary acceptance tests.
-*   **Governance:** Strict "Human-in-the-Loop" (HITL) gates, RBAC, and audit trails.
-*   **Observability:** If it isn't traced in Langfuse or Temporal UI, it doesn't exist.
+I build **AI systems for real business workflows** — combining agentic reasoning with deterministic software, enterprise integrations, evaluation, reliability, and human oversight.
 
----
+My interest is at the intersection of:
 
-### 🛠️ The Architecture Stack
-
-| Layer | Technology Choice | Why? |
-| :--- | :--- | :--- |
-| **Orchestration** | ![LangGraph](https://img.shields.io/badge/LangGraph-State_Machines-ff69b4?style=flat-square) ![Temporal](https://img.shields.io/badge/Temporal-Durable_Workflows-blue?style=flat-square) | Deterministic loops & durable execution, not random chains. |
-| **Backend Core** | ![FastAPI](https://img.shields.io/badge/FastAPI-Async_Python-009688?style=flat-square) ![Go](https://img.shields.io/badge/Go-Fiber-00ADD8?style=flat-square) ![Hono](https://img.shields.io/badge/Hono-Bun-E36002?style=flat-square) | High-concurrency async I/O for parallel agent execution. |
-| **Data Fabric** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-PgVector-336791?style=flat-square) ![Qdrant](https://img.shields.io/badge/Qdrant-VectorDB-DC244C?style=flat-square) | Hybrid Search (Vector + FTS) for grounded truth retrieval. |
-| **Observability** | ![Langfuse](https://img.shields.io/badge/Langfuse-Tracing-blue?style=flat-square) ![Grafana](https://img.shields.io/badge/Grafana-Metrics-F46800?style=flat-square) | Full visibility into latency, cost per token, and trace failures. |
-| **Cloud** | ![Azure](https://img.shields.io/badge/Azure-AI_Foundry-0078D4?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square) | Azure-native deployments, container-first infrastructure. |
-
----
-
-### 🚀 Production-Grade Architectures
-
-#### 1. [Invoicify: Azure-Native AP Automation with MCP](https://github.com/Aparnap2/invoicify)
-*Autonomous Accounts Payable agent replacing manual invoice processing end-to-end.*
-
-[![Tests](https://img.shields.io/badge/tests-83%20passing-brightgreen)](https://github.com/Aparnap2/invoicify) [![MCP](https://img.shields.io/badge/MCP-QuickBooks%20%7C%20HubSpot-purple)](https://modelcontextprotocol.io)
-
-> **The Problem:** Finance teams drown in manual invoice reconciliation — 15–30 min per invoice, 5–10% error rate, 3–7 day approval bottleneck.
-> **The Solution:** A **"Trust Battery"** architecture with Azure OCR + LangGraph state machine that autonomously approves low-risk invoices and escalates anomalies.
-
-*   **Architecture:** `PDF Upload` → `Azure Document Intelligence (OCR)` → `LangGraph AP Workflow (11 nodes)` → `Trust Battery Decision` → `QuickBooks MCP + HubSpot MCP Sync` → `Immutable Audit Ledger`
-*   **Key Innovation:** **Trust Battery Logic** — 4-level vendor trust (PROBATION → STANDARD → CORE → STRATEGIC) with dynamic auto-approval thresholds ($500 → $50k). Bank detail changes and PO mismatches auto-route to HITL review tasks.
-*   **Production Hardening:** Idempotent MCP tool calls via `Request-Id` headers, SHA-256 cryptographic audit receipts, SOC 2 data minimization (store hashes, not PDFs), Azure Key Vault secret management, L1/L2/L3 LLM cache (90% call reduction).
-*   **Metrics:** **99% OCR accuracy** | **60–80% auto-approval rate** | **97% cost reduction** ($15–30 → $0.50/invoice) | **83 tests passing** | **$0/month for 12 months** (Azure free tier)
-
----
-
-#### 2. [Sarthi.ai: Internal Ops Virtual Office](https://github.com/Aparnap2/sarthi_ai)
-*Governance-first internal operations system for Seed to Series A startups replacing back-office fragmentation with 13 specialized AI employees.*
-
-[![Tests](https://img.shields.io/badge/tests-125%20passing-brightgreen)](https://github.com/Aparnap2/sarthi_ai) [![Desks](https://img.shields.io/badge/desks-6%20Active-blue)](https://github.com/Aparnap2/sarthi_ai)
-
-> **The Problem:** Early-stage startups drown in operational chaos, juggling 15 disconnected tools. Founders waste 15–20 hours/week on back-office tasks, delaying product roadmaps by ~3 months per year.
-> **The Solution:** A virtual office with a **Chief of Staff** orchestrating 13 specialized AI employees across 6 desks (Finance, People, Legal, Intelligence, IT, Admin). Everything requiring human judgment is prepared perfectly and presented in 30 seconds.
-
-*   **Architecture:** `Telegram Bot` → `Tier 1: Chief of Staff Agent` → `Tier 2: 6 Desks (13 Virtual Employees)` → `Tier 0: BusinessOS (Go + Temporal + Graphiti)` → `Tier 3: Data Layer (Qdrant + Neo4j)`.
-*   **Key Innovation:** **The Self-Correcting Memory System** — Sarthi learns company-specific context over time. Agent acts → Founder confirms → Memory updated (Qdrant + Neo4j) → Future auto-categorized with context drift detection.
-*   **Production Hardening:** Strict HITL (Human-in-the-Loop) gates enforced by Temporal, deterministic state management, and an explicit boundary (Zero external-facing work like RevOps or Customer Success).
-*   **Metrics:** **$0/month infrastructure cost** for MVP | **Replaces ₹2L–₹3.75L/month** in fractional admin costs | **20x–50x ROI** | **125 tests passing** (Targeting 189 tests for v4.2.0).
-
----
-
-#### 3. [TechTrend: Agentic Commerce Platform](https://github.com/Aparnap2/smart_commerce_agent)
-*Production-grade AI-native e-commerce CX platform where the agent IS the interface — zero page navigation, zero forms, all conversation.*
-
-[![Tests](https://img.shields.io/badge/tests-307%20passing-brightgreen)](https://github.com/Aparnap2/smart_commerce_agent) [![Pass Rate](https://img.shields.io/badge/pass%20rate-100%25-brightgreen)](https://github.com/Aparnap2/smart_commerce_agent)
-
-> **The Problem:** Chatbots are dumb text boxes that can't "do" anything — users still navigate pages, fill forms, and wait for human support agents.
-> **The Solution:** A **Generative UI** agent that renders dynamic React components (ProductGrid, CartCanvas, OrderTimeline, ActionConfirm) directly inside the chat stream, powered by a LangGraph supervisor routing 14 intent types.
-
-*   **Architecture:** `Next.js 15 GenUI Canvas` → `Hono + Bun (GraphQL Yoga / MCP endpoints)` → `FastAPI + LangGraph (ShopperAgent / SupportAgent)` → `PostgreSQL 16 + pgvector (Hybrid FTS + Vector Search)` → `Azure AI Foundry (gpt-4o-mini)`
-*   **Key Innovation:** **Agent-First Commerce** — Every user action is a conversation turn. LangGraph supervisor with typed state, Redis checkpointing, circuit breaker for resilience, and Human-in-the-Loop for critical actions (checkout, refunds). RAGAS + LLM-as-Judge scoring via Langfuse.
-*   **Observability:** 100% of agent turns traced in Langfuse with per-span latency (classify, tools, generate), faithfulness scores, and correlation IDs on every tool call.
-*   **Metrics:** **307 tests passing (100% pass rate)** | **P95 agent turn latency < 500ms** | **Task completion target > 95%** | **Cart recovery > 15%** vs 10% industry avg | **Merchant time saved > 2hr/day**
+**Applied AI × Systems Engineering × Business Operations**
 
 ---
 
 <div align="center">
-  <sub><em>"We cannot solve our problems with the same thinking we used when we created them."</em> – Albert Einstein</sub>
+
+<a href="https://aparnapradhanportfolio.netlify.app/" target="_blank">
+<img src="https://img.shields.io/badge/Portfolio-Case_Studies-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/aparna-pradhan-06b882215/" target="_blank">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="mailto:softservicesinc.portfolio@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
 </div>
+
+---
+
+## What I Build
+
+I am particularly interested in AI systems that have to operate **inside existing business processes**, rather than isolated chat interfaces.
+
+That means dealing with:
+
+* messy and heterogeneous data
+* APIs and enterprise systems
+* legacy infrastructure
+* ambiguous operational cases
+* business rules and policy
+* human approval
+* failure and recovery
+* security and authorization
+* evaluation and regression
+* measurable operational outcomes
+
+My current work explores this through three different problem classes.
+
+---
+
+# Engineering Philosophy
+
+> **AI handles ambiguity. Deterministic software handles truth, authority, and execution.**
+
+LLMs are powerful reasoning components, but they should not automatically become the system of record, authorization layer, or source of truth.
+
+I therefore design around explicit boundaries:
+
+| Principle                  | What it means                                                   |
+| -------------------------- | --------------------------------------------------------------- |
+| **Bounded agents**         | Explicit tools, permissions, context, budgets, and state        |
+| **Deterministic controls** | Validation, business rules, reconciliation, authorization       |
+| **Evidence**               | Important claims should be traceable to their source            |
+| **Human oversight**        | Humans retain authority where automation is unsafe or ambiguous |
+| **Verification**           | Actions are independently verified rather than trusted blindly  |
+| **Evaluation**             | Golden cases, regression tests, adversarial scenarios           |
+| **Observability**          | Workflow state, traces, errors, latency, and AI telemetry       |
+| **Failure-first design**   | Retries, idempotency, timeouts, stale state, partial failure    |
+
+The objective is not to make an AI system *look autonomous*.
+
+It is to make it **useful, bounded, observable, and reliable enough to participate in real operational workflows.**
+
+---
+
+# Current Projects
+
+## 01 · FinSight
+
+### AI-assisted Financial Resolution
+
+[**View Repository →**](https://github.com/Aparnap2/Finsight)
+
+FinSight is a focused financial-resolution system modeled around a single B2B commerce company.
+
+Its job is to:
+
+> **Detect → Investigate → Explain → Propose → Authorize → Execute → Verify → Close**
+
+The system reasons across heterogeneous financial systems including:
+
+* payment-provider state
+* accounting records
+* expected settlement data
+* email and collaboration context
+* a legacy COBOL-style settlement boundary
+
+### Architecture
+
+```text
+                Financial Systems
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+    Payments       Accounting      Legacy
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+              Deterministic Core
+          Reconciliation · Evidence
+             Rules · State · Policy
+                       │
+                       ▼
+                AI Investigator
+             Reason · Correlate
+                 · Explain
+                 · Propose
+                       │
+                       ▼
+                Human / Policy
+                    Gate
+                       │
+                       ▼
+                   Execute
+                       │
+                       ▼
+              Independent Verify
+                       │
+                       ▼
+                     Close
+```
+
+### Core boundary
+
+**The agent can:**
+
+* investigate
+* gather evidence
+* generate hypotheses
+* correlate information
+* explain discrepancies
+* propose resolutions
+
+**The agent cannot:**
+
+* establish financial truth
+* authorize its own action
+* bypass policy
+* execute arbitrary operations
+* verify its own execution
+
+Current engineering work includes:
+
+* deterministic financial reconciliation
+* evidence-backed investigation
+* typed agent capabilities
+* authority boundaries
+* human resolution workflows
+* legacy batch integration
+* idempotent execution
+* adversarial evaluation
+* security and isolation
+* post-execution verification
+
+**Status:** Active development
+
+---
+
+# 02 · ClaimOps AI
+
+### Evidence-Driven AI for Health-Insurance Claims Operations
+
+[**View Repository →**](https://github.com/Aparnap2/Claim_Ops)
+
+ClaimOps explores how AI can assist claims operations while keeping adjudication authority with the insurer or TPA.
+
+The core workflow:
+
+```text
+Claim
+  ↓
+Document Ingestion
+  ↓
+Classification / Extraction
+  ↓
+Evidence & Provenance
+  ↓
+Deterministic Validation
+  ↓
+Exception
+  ↓
+Bounded Investigation
+  ↓
+Evidence-Grounded Finding
+  ↓
+Human Review
+  ↓
+Audit
+```
+
+### AI is used for cognitive work
+
+* interpreting heterogeneous documents
+* investigating ambiguous exceptions
+* gathering relevant evidence
+* forming hypotheses
+* preparing findings
+
+### Deterministic software controls
+
+* validation
+* state transitions
+* authorization
+* evidence verification
+* workflow execution
+* auditability
+
+The system is deliberately positioned **beside** the insurer's adjudication process rather than replacing it.
+
+Current engineering work includes:
+
+* evidence-grounded agent tools
+* deterministic-first orchestration
+* durable workflow state
+* failure and retry semantics
+* tenant isolation
+* adversarial testing
+* evaluation harnesses
+* observability
+* human-review routing
+
+**Status:** Active development
+
+---
+
+# 03 · OntologyAI
+
+### Business Discovery → Ontology → Workflow → Solution Design
+
+[**View Repository →**](https://github.com/Aparnap2/Ontology_AI)
+
+OntologyAI explores the problem that comes **before** implementation:
+
+> **How do you turn messy business context into a structured understanding of an organization, its processes, systems, and operational problems?**
+
+The core idea:
+
+```text
+Business Context
+       ↓
+Domain Model
+       ↓
+Entities & Relationships
+       ↓
+Processes
+       ↓
+Operational Pain Points
+       ↓
+Solution Design
+```
+
+It focuses on the discovery and solution-design side of enterprise AI engineering.
+
+**Status:** Experimental / evolving
+
+---
+
+# The Common Thread
+
+These projects are intentionally different.
+
+They explore different business problems, data shapes, system constraints, and risk models.
+
+But they share the same engineering principle:
+
+```text
+Business Problem
+       ↓
+Workflow Understanding
+       ↓
+System & Data Mapping
+       ↓
+Deterministic Controls
+       ↓
+Bounded AI
+       ↓
+Human / Policy Boundary
+       ↓
+Execution
+       ↓
+Verification
+       ↓
+Observable Outcome
+```
+
+I am interested in **where AI belongs inside a system — and equally, where it should not be trusted.**
+
+---
+
+# Engineering Focus
+
+### Applied AI
+
+`Python` · `FastAPI` · `LangGraph` · `LLM APIs` · `RAG` · `Tool Calling` · `Structured Outputs` · `Context Engineering` · `Agent Evaluation`
+
+### Backend & Data
+
+`PostgreSQL` · `Redis` · `Pydantic` · `AsyncIO` · `REST APIs` · `Webhooks` · `SQL` · `Schema Mapping` · `Data Reconciliation`
+
+### Enterprise Integration
+
+`APIs` · `Events` · `Queues` · `Batch Processing` · `Object Storage` · `Legacy Systems` · `Canonical Models` · `Idempotency`
+
+### Reliability & Security
+
+`TDD` · `CI/CD` · `Observability` · `OpenTelemetry` · `Auditability` · `RBAC` · `Isolation` · `Prompt-Injection Defense` · `Failure Testing`
+
+### Cloud & Infrastructure
+
+`AWS` · `GCP` · `Docker` · `Linux`
+
+---
+
+# How I Engineer
+
+I prefer an evidence-driven development loop:
+
+```text
+Specification
+     ↓
+Contract
+     ↓
+RED Tests
+     ↓
+Implementation
+     ↓
+GREEN
+     ↓
+Integration Testing
+     ↓
+Adversarial Testing
+     ↓
+Review
+     ↓
+PR
+     ↓
+Merge
+     ↓
+Evidence
+```
+
+A system is not complete because the happy path works.
+
+I want to understand:
+
+* What happens when data is malformed?
+* What happens when the model is wrong?
+* What happens when a tool fails?
+* What happens when a request is duplicated?
+* What happens when evidence is missing?
+* What happens when state becomes stale?
+* What happens when an external dependency disappears?
+* What prevents an agent from exceeding its authority?
+
+---
+
+# What I'm Working Toward
+
+I am developing toward roles at the intersection of:
+
+**Applied AI · Agent Engineering · AI Solutions · Enterprise Integration · Forward-Deployed Engineering**
+
+I enjoy problems where the work starts with an ambiguous business process and ends with a working technical system:
+
+```text
+Understand the business
+        ↓
+Map the workflow
+        ↓
+Understand the data
+        ↓
+Identify the real constraint
+        ↓
+Design the solution
+        ↓
+Build the system
+        ↓
+Integrate with existing infrastructure
+        ↓
+Evaluate it
+        ↓
+Deploy and observe it
+        ↓
+Measure the outcome
+```
+
+---
+
+## Beyond the Code
+
+I am particularly interested in the question:
+
+> **How do we make AI useful inside real organizations without pretending that probabilistic models are deterministic systems?**
+
+That's the engineering problem I'm exploring.
+
+---
+
+<div align="center">
+
+### Let's build systems, not just demos.
+
+<br/>
+
+<a href="https://aparnapradhanportfolio.netlify.app/">Portfolio</a>
+  ·   <a href="https://www.linkedin.com/in/aparna-pradhan-06b882215/">LinkedIn</a>
+  ·   <a href="mailto:softservicesinc.portfolio@gmail.com">Email</a>
+
+<br/><br/>
+
+<sub>Applied AI · Agentic Systems · Enterprise Integration · Reliable Software</sub>
+
+</div>
+
