@@ -1,25 +1,7 @@
-# Hi, I'm Aparna Pradhan.
-
-### Applied AI Architect & Full-Stack Engineer
 
 
 
 
-< a href="https://www.credly.com/badges/a7f40199-2c96-473e-9057-af20af5924e4/public_url" target="_blank">
-<img width="900" height="550" alt="2025-04-27" src="https://github.com/Aparnap2/Aparnap2/blob/main/cN%2Bb_LtQNnJrj9jnfxxqyGZKUNSlgZOqOSyi2TqtCKk%3D.png" />
-</a>
-
-<div align="left">
-  <a href="https://aparnapradhanportfolio.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-View_Case_Studies-000000?style=for-the-badge&logo=vercel" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/aparna-pradhan-06b882215/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-  </a>
-  <a href="mailto:softservicesinc.portfolio@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Hire_Me-EA4335?style=for-the-badge&logo=gmail" alt="Email" />
-  </a>
-</div>
 
 ---
 
@@ -35,8 +17,17 @@ My interest is at the intersection of:
 
 ---
 
+
+
+
+
 <div align="center">
 
+
+
+<img width="900" height="550" alt="2025-04-27" src="https://github.com/Aparnap2/Aparnap2/blob/main/cN%2Bb_LtQNnJrj9jnfxxqyGZKUNSlgZOqOSyi2TqtCKk%3D.png" />
+
+ 
 <a href="https://aparnapradhanportfolio.netlify.app/" target="_blank">
 <img src="https://img.shields.io/badge/Portfolio-Case_Studies-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
